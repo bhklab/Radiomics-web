@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "month": "Jul",
+    "day": "26",
+    "year": "2021",
+    "topic": "Topic1",
+    "title": "Reza presents at AAPM annual meeting",
+    "text": "<p>Reza Reiazi presents his poster entitled, \"Prediction of HPV Status in the Head and Neck Cancer Patient Using CT Derived Radiomic Features: The Impact of CT Scanner\" at the AAPM annual meeting</p>"
+  },
+  {
+    "id": "1",
+    "month": "Mar",
+    "day": "24",
+    "year": "2021",
+    "topic": "Topic2",
+    "title": "Reza presents at Imaging Network Ontario",
+    "text": "<p>Reza Reiazi delivers a presentation entitled \"The Impact of the Variation of CT Scanner on the Prediction of Human papillomavirus (HPV) Association of Oropharyngeal Cancer (OPC) using Radiomic Models\" at St. Francis Xavier University</p>"
+  },
+  {
+    "id": "2",
+    "month": "Oct",
+    "day": "28",
+    "year": "2020",
+    "topic": "Topic1",
+    "title": "Dr. Mattea Welch presents at OICR radiomics and imaging forum",
+    "text": "<p>Dr. Mattea Welch presents her findings on <strong>Exploring Automation and Radiomics in Head and Neck Imaging Studies</strong> at OICR radiomics and imaging forum </p>"
+  },
+  {
+    "id": "3",
+    "month": "May",
+    "day": "29",
+    "year": "2020",
+    "topic": "Topic3",
+    "title": "Michal Kazmierski presents his poster at ASCO 2020 in Chicago",
+    "text": "<p>Michal Kazmierski presents his poster on <strong>Radiomic response evaluation of recurrent or metastatic squamous cell cancer patients receiving Pembrolizumab on KEYNOTE-012 study </strong>at<strong> </strong>ASCO 2020 in Chicago </p>"
+  },
+  {
+    "id": "4",
+    "month": "May",
+    "day": "23",
+    "year": "2019",
+    "topic": "Topic3",
+    "title": "Dr. Benjamin Haibe-Kains presents at theComputational Medicine Seminar Series, Wharton/Elia Day 2019, University Health Network",
+    "text": "<p>Dr. Benjamin Haibe-Kains presents \"<strong>Radiomics in the Era of Data Science: An RMP Collaborative Effort</strong>\" at the Computational Medicine Seminar Series, Wharton/Elia Day 2019, University Health Network.</p>"
+  }
+]

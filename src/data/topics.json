@@ -1,0 +1,74 @@
+[
+  {
+    "topic": "Data Processing",
+    "description" : "Creation of open-source platforms to facilitate large scale image analysis",
+    "slug": "data-processing",
+    "image": "src/images/Research/dataProcessing.png",
+    "projects": [
+      {
+        "name": "Med-Imagetools",
+        "description": "Med-ImageTools is a python package designed to help researchers transform messy medical datasets into analysis-ready format with few lines of code. It is also focused on helping researchers develop transparent and reproducible medical image processing pipelines by addressing most of the boilerplate code required for image transformations and processing parallelization."
+      },
+      {
+        "name": "MIRA",
+        "description": "Acquiring data, image processing, data federation, data cleaning, data exploration, model creation, model testing and model validation can all be time-consuming and challenging tasks, requiring clinicians to go into each source system, search for and acquire the data of interest, manually process images (often taking hours per image), federate the data with other sources (often spreadsheets), clean it, examine it, then often need help to create, test and validate models based on the data, with models being siloed on individual computers. The outputs of these models are what can be useful in the clinic. This has to be repeated across an entire cohort of patients. With MIRA, this data science workflow can be automated, saving on many time-consuming and repetitive steps, especially related to data wrangling, image processing and creating models for prediction and machine learning. It also allows for centralised storage of validated models.\nMIRA currently integrates with a number of source systems at UHN including RayStation, Pinnacle, Web Publishing, MOSAIQ, JDMI PACS and HPC4H."
+      }
+    ]
+  },
+  {
+    "topic": "Analysis Methods",
+    "description" : "Transparent for medical image analysis",
+    "slug": "analysis-methods",
+    "image": "src/images/Research/analysisMethods.png",
+    "projects": [
+      {
+        "name": "PyTorch",
+        "description": "Open-source deep learning framework popular in both research and industry communities. It allows researchers to quickly prototype new models, train them in distributed, scalable environments such as HPC4Health, and deploy inference-ready models."
+      },
+      {
+        "name": "Docker",
+        "description": "Is a platform-as-a-service product that removes the majority of boilerplate configuration for OS-level virtualization."
+      }
+    ]
+  },
+  {
+    "topic": "Biomarker Discovery",
+    "description" : "Exploring and establishing clinical utility through innovative methodology",
+    "slug": "biomarker-discovery",
+    "image": "src/images/Research/biomarker.png",
+    "projects": [
+      {
+        "name": "RADCURE",
+        "description": "RADCURE is a retrospective dataset containing imaging, treatment, demographic and clinical information for 2745 head and neck cancer patients. RADCURE is the largest single institution dataset of its kind, and is being processed for open availability on the Cancer Imaging Archive, providing a multitude of opportunities for future research. The size of the dataset makes it a unique contribution to the field of cancer imaging research, and future plans to amend the data and include additional data types will continue to expand the reach and usability of this data."
+      }
+    ]
+  },
+  {
+    "topic": "Segmentation",
+    "description" : "AI assisted annotation of medical images",
+    "slug": "segmentation",
+    "image": "src/images/Research/segmentation_brain.png",
+    "projects": [
+      {
+        "name": "Automatic Segmentation for Targets and Organs at Risk (OARs) in Cervical High Dose Rate (HDR) Brachytherapy via Deep Learning",
+        "description": "Brachytherapy is an important component in managing cervical cancer and improves survival rates over external beam radiotherapy alone. Manually accurate delineation of organs at risk (OARs) and targets is the most time-consuming aspect of a cervix brachytherapy procedure. To reduce the contouring time, this study aims to develop an automatic segmentation framework in female pelvic magnetic resonance (MR) images using deep learning (DL) techniques. This method holds great potential to improve contouring efficiency without clinically significant loss of accuracy and thus, improving plan accuracy and decreasing dosimetric uncertainty."
+      }
+    ]
+  },
+  {
+    "topic": "Clinical Deployment and Assessment",
+    "description" : "Improve and monitor clinical workflow using AI models",
+    "slug": "clinical-deployment-and-assessment",
+    "image": "src/images/Research/clinicalWorkflow.png",
+    "projects": [
+      {
+        "name": "MIRACLE",
+        "description": "Clinical implementation of data science research will require automated pipelines that are tied into the entire treatment pathway in ways that facilitate real-time data analysis and enable translational research. The MIRA Clinical Learning Environment (MIRACLE) project uses the MIRA platform (an in-house developed programming toolkit) to develop and validate prototype clinical pipelines with three goals:\n(1) identify lung cancer patients with undiagnosed underlying inflammatory lung disease (ILD) from pre-treatment diagnostic images,\n(2) estimate individual patients’ tumor growth-rate between diagnostic and treatment planning images (specific growth-rate, SGR) and\n(3) provide each patient with an estimate of dynamic radiation treatment toxicity risk using radiation treatment planning information, while continuously updating risk estimates using daily cone-beam computed tomography (CBCT) images routinely obtained before each radiation treatment."
+      },
+      {
+        "name": "QUANNOTATE",
+        "description": ""
+      }
+    ]
+  }
+]
