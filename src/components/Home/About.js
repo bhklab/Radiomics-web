@@ -9,10 +9,9 @@ const StyledSection = styled.div`
     background: white;
   }
   
-  
   .about {
     margin: 0px 10%;
-    font-family: 'Br-cobane-font', 'Lato', sans-serif;
+    font-family: 'Br-cobane-font', Arial;
     width: 80%;
     display: flex;
     height: 40vh;

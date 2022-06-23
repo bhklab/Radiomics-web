@@ -56,7 +56,7 @@ const StyledFooter = styled.div`
   }
 
   .contact {
-    font-family: 'Br-cobane-font', 'Lato', sans-serif;
+    font-family: 'Br-cobane-font', Arial;
     & h2 {
       margin: 0px 0px 5px 0px;
       font-size: calc(0.2vw + 1em);

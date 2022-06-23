@@ -29,6 +29,7 @@ const BurgerMenu = () => {
       position: 'fixed',
     },
     bmMenu: {
+      textDecoration: 'none',
       background: '#2A2A2AFF',
       padding: '2.5em 1.5em 0',
       fontFamily: 'Br-cobane-font',

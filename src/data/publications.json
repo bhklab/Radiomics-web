@@ -92,7 +92,7 @@
     "title": "Lymph Node Graph Neural Networks for Cancer Metastasis Prediction.",
     "authors": "Michal Kazmierski, Benjamin Haibe-Kains",
     "publisher": "arXiv",
-    "doi": "arxiv.org/abs/2106.01711",
+    "doi": "10.48550/arXiv.2106.01711",
     "link": "",
     "type": "preprint"
   },
@@ -125,7 +125,7 @@
     "title": "CovidCTNet: An Open-Source Deep Learning Approach to Identify Covid-19 Using CT Image.",
     "authors": "Tahereh Javaheri, Morteza Homayounfar, Zohreh Amoozgar, Reza Reiazi, Fatemeh Homayounieh, Engy Abbas, Azadeh Laali, Amir Reza Radmard, Mohammad Hadi Gharib, Seyed Ali Javad Mousavi, Omid Ghaemi, Rosa Babaei, Hadi Karimi Mobin, Mehdi Hosseinzadeh, Rana Jahanban-Esfahlan, Khaled Seidi, Mannudeep K. Kalra, Guanglan Zhang, L.T. Chitkushev, Benjamin Haibe-Kains, Reza Malekzadeh, Reza Rawassizadeh",
     "publisher": "arXiv",
-    "doi": "arxiv.org/abs/2005.03059v3",
+    "doi": "10.48550/arXiv.2005.03059",
     "link": "",
     "type": "preprint"
   },

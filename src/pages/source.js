@@ -34,6 +34,9 @@ const StyledCard = styled.div`
         justify-content: left;
       }
     }
+    .description {
+      text-align: left;
+    }
   }
 `;
 
@@ -50,16 +53,15 @@ const Source  = () => {
                                     <img src = {checklist}></img>
                                     <div className="name">Radiomics Checklist</div>
                                 </div>
-                                As the research field matures, it is important to ensure that radiomics studies within the RMP Radiomics Program follow the best practices for developing models and reporting results. In consultation with the participants of the RMP Radiomics Working Group, we have developed a checklist that can be used on a volunteer basis
+                                <div className="description">As the research field matures, it is important to ensure that radiomics studies within the RMP Radiomics Program follow the best practices for developing models and reporting results. In consultation with the participants of the RMP Radiomics Working Group, we have developed a checklist that can be used on a volunteer basis</div>
                             </a>
                         </div>
                         <div className="card">
                             <a href='https://bit.ly/2IAU3GW' target='_blank'>
                                 <div className="title">
-                                    <img src = {dataset}></img>
-                                    <div className="name">Data Sharing</div>
+                                    <img src = {dataset}></img><div className="name">Data Sharing</div>
                                 </div>
-                                Sharing more data holds the potential to substantially improve the productivity and quality of the scientific projects within RMP in many areas, including radiomics. As a group, we have developed a framework to facilitate collaborations within the RMP Radiomics Research Program. It is important to note that these policies are to be followed only on a volunteer basis.
+                                <div className="description">Sharing more data holds the potential to substantially improve the productivity and quality of the scientific projects within RMP in many areas, including radiomics. As a group, we have developed a framework to facilitate collaborations within the RMP Radiomics Research Program. It is important to note that these policies are to be followed only on a volunteer basis.</div>
                             </a>
                         </div>
                     </StyledCard>

@@ -12,6 +12,7 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-transformer-json',
     'gatsby-transformer-csv',
+    `gatsby-plugin-preload-fonts`,
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

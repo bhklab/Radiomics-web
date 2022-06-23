@@ -20,7 +20,7 @@ const StyledLinks = styled.div`
     font-weight: 400;
     font-size: calc(0.2vw + 0.7em);
     letter-spacing: 1px;
-    font-family: 'Br-cobane-font', 'Lato';
+    font-family: 'Br-cobane-font', Arial;
     border-bottom: 2px solid transparent;
   }
   a:hover {
@@ -40,7 +40,7 @@ const Publications = () => {
         return (
             <Grid item xs={6} sm={4} key={i}>
                 <StyledLinks>
-                    <a href={item.link} target="_blank" rel="noreferrer">
+                    <a href={item.link || (item.doi && `https://www.doi.org/${item.doi}`)} target="_blank" rel="noreferrer">
                         <div className="publication">
                             <div style={{ minHeight: '20px', maxHeight: '30px', color: 'black', fontSize: '12px', marginBottom: "10px"}}>{item.publisher}</div>
                             <div style={{ minHeight: '130px', maxHeight: '150px', color: '#2d2d2d'}}>{item.title}</div>

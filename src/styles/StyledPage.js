@@ -7,7 +7,7 @@ const StyledPage = styled.div`
   background: #232323;
   flex-direction: column;
   margin-top: 80px;
-  font-family: 'Br-cobane-font', 'Lato', sans-serif;
+  font-family: 'Br-cobane-font', Arial;
   //padding: 30px 0px 80px 0px;
 
   h1 {
@@ -19,7 +19,7 @@ const StyledPage = styled.div`
   }
 
   span {
-    font-family: 'Br-cobane-font', 'Lato', sans-serif;
+    font-family: 'Br-cobane-font', Arial;
     background: #2A2A2AFF;
     color: white;
     font-size: calc(0.5vw + 0.5em);
@@ -30,7 +30,7 @@ const StyledPage = styled.div`
 
   .container {
     width: 70%;
-    font-family: 'Br-cobane-font', 'Lato', sans-serif;
+    font-family: 'Br-cobane-font', Arial;
     flex-direction: column;
     align-self: center;
     display: flex;
@@ -48,7 +48,7 @@ const StyledPage = styled.div`
     transition: 0.3s;
     cursor: pointer;
     display: flex;
-    font-family: 'Br-cobane-font', 'Lato', sans-serif;
+    font-family: 'Br-cobane-font', Arial;
     justify-content: center;
     flex-direction: column;
     align-items: center;

@@ -52,11 +52,10 @@ const StyledLinks = styled.div`
   & a {
     color: white;
     text-decoration: none;
-    font-weight: 400;
     font-size: calc(0.2vw + 0.7em);
     margin: 0px 30px;
     letter-spacing: 1px;
-    font-family: 'Br-cobane-font', 'Lato', sans-serif;
+    font-family: 'Br-cobane-font', Arial;
     padding-bottom: 2px;
     border-bottom: 2px solid transparent;
   }

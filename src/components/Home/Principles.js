@@ -41,14 +41,14 @@ const StyledPrinciple = styled.div`
     background-color: white;
     
     .title {
-      font-family: 'Br-cobane-font', 'Lato', sans-serif;
+      font-family: 'Br-cobane-font', Arial;
       font-weight: bold;
       font-size: 16px;
       color: rgba(0, 0, 0, 0.95);
     }
 
     .description {
-      font-family: 'Br-cobane-font', 'Lato', sans-serif;
+      font-family: 'Br-cobane-font', Arial;
       min-height: 50px;
     }
 

@@ -24,7 +24,7 @@ const StyledSection = styled.div`
   }
 
   .container {
-    font-family: 'Br-cobane-font', 'Lato', sans-serif;
+    font-family: 'Br-cobane-font', Arial;
     width: 100%;
     margin-top: 10px;
     display: flex;
@@ -41,7 +41,6 @@ const StyledSection = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     padding: 10px 5px 10px 5px;
     margin: 20px 10px 40px 10px;
     min-height: 120px;
@@ -71,7 +70,7 @@ const StyledSection = styled.div`
       justify-content: center;
       flex-direction: column;
       align-items: center;
-      text-align: center;
+      text-align: justify;
       padding: 10px 5px;
     }
 
@@ -94,20 +93,6 @@ const StyledSection = styled.div`
     & a:hover {
       color: #d5d5d5;
     }
-  }
-  
-  .about {
-    margin: 0px 10%;
-    width: 80%;
-    display: flex;
-    height: 40vh;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    font-size: calc(0.3vw + 0.7em);
-    font-weight: normal;
-    line-height: calc(0.8vw + 1.3em);
-    letter-spacing: 1px;
   }
 `;
 const Resources = () => {
