@@ -2,54 +2,13 @@ import React from 'react';
 import '../styles/index.css';
 import {graphql, navigate} from 'gatsby';
 import StyledPage from "../styles/StyledPage";
+import StyledReturnBtn from "../styles/utils/StyledReturnButton";
+import StyledMember from "../styles/StyledMember";
 import Layout from "../components/Layout";
 import BHK from '../images/Initiatives/BHK_transparent.png';
 import SVB from '../images/Initiatives/SVB_transparent.png';
 import TP from '../images/Initiatives/TP_transparent.png';
 import styled from "styled-components";
-
-const StyledReturnBtn = styled.button`
-  margin-top: 50px;
-  font-family: 'Br-cobane-font', sans-serif;
-  background: none;
-  color: white;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  width: 60px;
-  border-radius: 10px;
-
-  &:focus {
-    outline: none;
-  }
-
-  &:hover {
-    background-color: var(--link-hov)
-  }
-`;
-
-const StyledMember = styled.div`
-  display: flex;
-  flex-direction: row;
-  .text {
-    color: white;
-    margin-top: 70px;
-    flex-direction: column;
-    max-width: 45vw;
-    
-    .name {
-      min-height: 40px;
-      color: white;
-      font-weight: 60;
-      font-size: 25px;
-      display: flex;
-      justify-content: left;
-    }
-  }
-  .img {
-    height: 500px;
-  }
-`;
 
 export const query = graphql`
   query ($slug: String!) {

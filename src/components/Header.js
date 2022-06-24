@@ -33,7 +33,7 @@ const StyledLogo = styled.div`
   justify-content: space-between;
   align-items: center;
   font-size: calc(0.2vw + 0.65em);
-  font-weight: bold;
+  font-weight: 50;
   & img {
     width: 65px;
     margin-right:10px;

@@ -1,3 +1,23 @@
+:root {
+    --main-color: #2A2A2AFF;
+    --footer-bg: rgb(42, 42, 42);
+    --link-hov: #7A7A7A82;
+    --light-gray : #d5d5d5;
+    --contrast-bg: #f7f7f7;
+    --link-hov-dark: #1c91df;
+}
+
+body {
+    margin:0px !important;
+    overflow-x:hidden;
+    font-family: 'Br-cobane-font', sans-serif;
+    font-weight: 400;
+}
+
+main {
+    position: relative;
+}
+
 @media only screen and (min-width: 1082px) {
     .burger-menu, .bm-burger-button {
         display:none;
@@ -26,12 +46,12 @@
     font-style: normal;
 }
 
-/*@font-face {*/
-/*    font-family: "Br-cobane-font";*/
-/*    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneRegularItalic.otf) format('truetype');*/
-/*    font-weight: normal;*/
-/*    font-style: italic;*/
-/*}*/
+@font-face {
+    font-family: "Br-cobane-font";
+    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneRegularItalic.otf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
 
 @font-face {
     font-family: "Br-cobane-font";
@@ -40,12 +60,12 @@
     font-style: normal;
 }
 
-/*@font-face {*/
-/*    font-family: "Br-cobane-font";*/
-/*    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneBlackItalic.otf) format('truetype');*/
-/*    font-weight: bold;*/
-/*    font-style: italic;*/
-/*}*/
+@font-face {
+    font-family: "Br-cobane-font";
+    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneBlackItalic.otf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
 
 @font-face {
     font-family: "Br-cobane-font";
@@ -54,12 +74,12 @@
     font-style: normal;
 }
 
-/*@font-face {*/
-/*    font-family: "Br-cobane-font";*/
-/*    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneBoldItalic.otf) format('truetype');*/
-/*    font-weight: bold;*/
-/*    font-style: italic;*/
-/*}*/
+@font-face {
+    font-family: "Br-cobane-font";
+    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneBoldItalic.otf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
 
 @font-face {
     font-family: "Br-cobane-font";
@@ -68,12 +88,12 @@
     font-style: normal;
 }
 
-/*@font-face {*/
-/*    font-family: "Br-cobane-font";*/
-/*    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneSemiBold.otf) format('truetype');*/
-/*    font-weight: 60;*/
-/*    font-style: italic;*/
-/*}*/
+@font-face {
+    font-family: "Br-cobane-font";
+    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneSemiBold.otf) format('truetype');
+    font-weight: 60;
+    font-style: italic;
+}
 
 @font-face {
     font-family: "Br-cobane-font";
@@ -82,12 +102,12 @@
     font-style: normal;
 }
 
-/*@font-face {*/
-/*    font-family: "Br-cobane-font";*/
-/*    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneMediumItalic.otf) format('truetype');*/
-/*    font-weight: 50;*/
-/*    font-style: italic;*/
-/*}*/
+@font-face {
+    font-family: "Br-cobane-font";
+    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneMediumItalic.otf) format('truetype');
+    font-weight: 50;
+    font-style: italic;
+}
 
 @font-face {
     font-family: "Br-cobane-font";
@@ -96,37 +116,37 @@
     font-style: normal;
 }
 
-/*@font-face {*/
-/*    font-family: "Br-cobane-font";*/
-/*    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneLightItalic.otf) format('truetype');*/
-/*    font-weight: 40;*/
-/*    font-style: italic;*/
-/*}*/
+@font-face {
+    font-family: "Br-cobane-font";
+    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneLightItalic.otf) format('truetype');
+    font-weight: 40;
+    font-style: italic;
+}
 
-/*@font-face {*/
-/*    font-family: "Br-cobane-font";*/
-/*    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneExtraLight.otf) format('truetype');*/
-/*    font-weight: 30;*/
-/*    font-style: normal;*/
-/*}*/
+@font-face {
+    font-family: "Br-cobane-font";
+    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneExtraLight.otf) format('truetype');
+    font-weight: 30;
+    font-style: normal;
+}
 
-/*@font-face {*/
-/*    font-family: "Br-cobane-font";*/
-/*    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneExtraLightItalic.otf) format('truetype');*/
-/*    font-weight: 30;*/
-/*    font-style: italic;*/
-/*}*/
+@font-face {
+    font-family: "Br-cobane-font";
+    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneExtraLightItalic.otf) format('truetype');
+    font-weight: 30;
+    font-style: italic;
+}
 
-/*@font-face {*/
-/*    font-family: "Br-cobane-font";*/
-/*    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneThin.otf) format('truetype');*/
-/*    font-weight: 20;*/
-/*    font-style: normal;*/
-/*}*/
+@font-face {
+    font-family: "Br-cobane-font";
+    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneThin.otf) format('truetype');
+    font-weight: 20;
+    font-style: normal;
+}
 
-/*@font-face {*/
-/*    font-family: "Br-cobane-font";*/
-/*    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneThinItalic.otf) format('truetype');*/
-/*    font-weight: 20;*/
-/*    font-style: italic;*/
-/*}*/
+@font-face {
+    font-family: "Br-cobane-font";
+    src: local('Brink'), url(../fonts/br-cobane/Brink-BRCobaneThinItalic.otf) format('truetype');
+    font-weight: 20;
+    font-style: italic;
+}

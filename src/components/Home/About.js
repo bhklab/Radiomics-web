@@ -1,29 +1,5 @@
 import React from 'react';
-import styled from "styled-components";
-
-const StyledSection = styled.div`
-  background: #f7f7f7;
-  padding: 30px 150px 50px 150px;
-  min-height: 45vh;
-  :nth-child(even) {
-    background: white;
-  }
-  
-  .about {
-    margin: 0px 10%;
-    font-family: 'Br-cobane-font', Arial;
-    width: 80%;
-    display: flex;
-    height: 40vh;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    font-size: calc(0.3vw + 0.7em);
-    font-weight: normal;
-    line-height: calc(0.8vw + 1.3em);
-    letter-spacing: 1px;
-  }
-`;
+import StyledSection from "../../styles/StyledSection";
 
 const About = () => (
     <StyledSection>

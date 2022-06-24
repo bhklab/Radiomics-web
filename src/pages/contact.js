@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import Layout from '../components/Layout';
 import bg from '../images/background/dark_background.png';
 import { HiOutlineMail } from 'react-icons/hi';
-import colors from "../styles/colors";
 
 const StyledContact = styled.div`
   width: 100%;
@@ -18,7 +17,7 @@ const StyledContact = styled.div`
   color: #2A2A2AFF;
   h1 {
     font-size: calc(1.0vw + 0.7em);
-    color: ${colors.light_gray};
+    color: var(--light-gray);
   }
 
   .container {
@@ -46,7 +45,7 @@ const StyledContact = styled.div`
       text-decoration: none;
       color: white;
       &:hover {
-        color: ${colors.light_gray};
+        color: var(--light-gray);
         border-bottom-color: white;
         text-decoration: none;
       }
@@ -54,9 +53,8 @@ const StyledContact = styled.div`
   }
 
   span {
-    color: ${colors.light_gray};
+    color: var(--light-gray);
     b {
-      color: ${colors.light_gray};
       margin: 20px 0px 20px 0px;
       color: white;
     }
@@ -87,7 +85,7 @@ const StyledEmail = styled.div`
     color: white;
     margin-bottom: 10%;
       &:hover {
-      color: ${colors.light_gray};
+      color: var(--light-gray);
       }
     .email {
       padding: 3px;

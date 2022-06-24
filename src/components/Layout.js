@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
-import {createGlobalStyle} from "styled-components";
 import Header from './Header';
 import Footer from './Footer';
 import BurgerMenu from './BurgerMenu';

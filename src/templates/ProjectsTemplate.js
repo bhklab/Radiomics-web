@@ -2,48 +2,11 @@ import React from 'react';
 import '../styles/index.css';
 import {graphql, navigate} from 'gatsby';
 import StyledPage from "../styles/StyledPage";
+import StyledReturnBtn from "../styles/utils/StyledReturnButton";
+import StyledTopic from "../styles/StyledTopic"
 import Layout from "../components/Layout";
 import styled from "styled-components";
 
-const StyledReturnBtn = styled.button`
-  margin-top: 50px;
-  font-family: 'Br-cobane-font', sans-serif;
-  background: none;
-  color: white;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  width: 60px;
-  border-radius: 10px;
-
-  &:focus {
-    outline: none;
-  }
-
-  &:hover {
-    background-color: #7A7A7A82
-  }
-`;
-
-const StyledTopic= styled.div`
-  width: 80%;
-  .title {
-    color: gray;
-    display: flex;
-    align-items: center;
-    height: 35px;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 30px;
-  }
-  .content {
-    margin-top: 20px;
-    font-size: 14px;
-    font-weight: normal;
-    color: white;
-    white-space: pre-line;
-  }
-`;
 
 export const query = graphql`
   query ($slug: String!) {

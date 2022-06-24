@@ -1,25 +1,5 @@
 import styled from "styled-components";
 
-const StyledReturnBtn = styled.button`
-  margin-top: 50px;
-  font-family: 'Br-cobane-font', sans-serif;
-  background: none;
-  color: white;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  width: 60px;
-  border-radius: 10px;
-
-  &:focus {
-    outline: none;
-  }
-
-  &:hover {
-    background-color: rgba(123, 123, 123, 0.51)
-  }
-`;
-
 const StyledMember = styled.div`
   display: flex;
   flex-direction: row;
@@ -43,7 +23,4 @@ const StyledMember = styled.div`
   }
 `;
 
-export {
-    StyledMember,
-    StyledReturnBtn
-};
+export default StyledMember;

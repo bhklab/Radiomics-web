@@ -8,19 +8,17 @@ const StyledPage = styled.div`
   flex-direction: column;
   margin-top: 80px;
   font-family: 'Br-cobane-font', Arial;
-  //padding: 30px 0px 80px 0px;
-
   h1 {
     padding-top: 2%;
     padding-left: 12%;
     font-size: calc(1.0vw + 0.9em);
     font-family: 'Br-cobane-font', 'Rubik', sans-serif;
-    color: #d5d5d5;
+    color: var(--light-gray);
   }
 
   span {
     font-family: 'Br-cobane-font', Arial;
-    background: #2A2A2AFF;
+    background: var(--main-color);
     color: white;
     font-size: calc(0.5vw + 0.5em);
     padding: 10px 12px;
