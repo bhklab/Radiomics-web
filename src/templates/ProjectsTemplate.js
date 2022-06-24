@@ -5,8 +5,6 @@ import StyledPage from "../styles/StyledPage";
 import StyledReturnBtn from "../styles/utils/StyledReturnButton";
 import StyledTopic from "../styles/StyledTopic"
 import Layout from "../components/Layout";
-import styled from "styled-components";
-
 
 export const query = graphql`
   query ($slug: String!) {
@@ -27,7 +25,14 @@ export const query = graphql`
 //  */
 const ProjectsTemplate = ({ data }) => {
     const item = data.topicsJson;
-
+    const project = (item, i) => {
+        return (
+            <StyledTopic key= {i}>
+                <div className='title'>{item[0].name}</div>
+                <div className='content'>{item[0].description}</div>
+            </StyledTopic>
+        )
+    }
     const customizedContent = (item, i) => {
         {
             if(item.length === 1)

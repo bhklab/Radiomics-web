@@ -8,7 +8,6 @@ import Layout from "../components/Layout";
 import BHK from '../images/Initiatives/BHK_transparent.png';
 import SVB from '../images/Initiatives/SVB_transparent.png';
 import TP from '../images/Initiatives/TP_transparent.png';
-import styled from "styled-components";
 
 export const query = graphql`
   query ($slug: String!) {
