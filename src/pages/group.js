@@ -40,7 +40,7 @@ const StyledCard= styled.div`
       min-height: 40px;
       color: white;
       font-weight: 60;
-      font-size: 22px;
+      font-size: calc(0.6vw + 0.5em);
       display: flex;
       justify-content: center;
     }

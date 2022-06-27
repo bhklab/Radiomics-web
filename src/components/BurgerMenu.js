@@ -33,7 +33,7 @@ const BurgerMenu = () => {
       background: '#2A2A2AFF',
       padding: '2.5em 1.5em 0',
       fontFamily: 'Br-cobane-font',
-      fontSize: '1.15em',
+      fontSize: '1em',
       color: 'white',
     },
     bmItemList: {

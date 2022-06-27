@@ -12,7 +12,7 @@ const StyledNews = styled.div`
         display: flex;
         align-items: center;
         height: 35px;
-        font-size: 20px;
+        font-size: calc(0.7vw + 0.5em);
         font-weight: bold;
         margin-top: 30px;
     }
@@ -21,12 +21,12 @@ const StyledNews = styled.div`
         display: flex;
         align-items: center;
         height: 20px;
-        font-size: 12px;
+        font-size: calc(0.5vw + 0.5em);
         font-weight: 60;
     }
     .content {
         margin-top: 20px;
-        font-size: 14px;
+        font-size: calc(0.6vw + 0.5em);
         font-weight: normal;
         color: white;
     }

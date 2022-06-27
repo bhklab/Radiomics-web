@@ -1,7 +1,7 @@
 [
   {
     "topic": "Data Processing",
-    "description" : "Creation of open-source platforms to facilitate large scale image analysis",
+    "short_description" : "Creation of open-source platforms to facilitate large scale image analysis",
     "slug": "data-processing",
     "image": "src/images/Research/dataProcessing.png",
     "projects": [
@@ -17,7 +17,7 @@
   },
   {
     "topic": "Analysis Methods",
-    "description" : "Transparent for medical image analysis",
+    "short_description" : "Transparent for medical image analysis",
     "slug": "analysis-methods",
     "image": "src/images/Research/analysisMethods.png",
     "projects": [
@@ -33,7 +33,7 @@
   },
   {
     "topic": "Biomarker Discovery",
-    "description" : "Exploring and establishing clinical utility through innovative methodology",
+    "short_description" : "Exploring and establishing clinical utility through innovative methodology",
     "slug": "biomarker-discovery",
     "image": "src/images/Research/biomarker.png",
     "projects": [
@@ -45,7 +45,8 @@
   },
   {
     "topic": "Segmentation",
-    "description" : "AI assisted annotation of medical images",
+    "short_description" : "AI assisted annotation of medical images",
+    "description": "Medical image segmentation plays an essential role in radiotherapy as well as computer-aided diagnosis systems. Segmentation refers to the process of extracting the desired object (organ or region of interest (ROI)) from a medical image (2D or 3D), which can be done manually, semi-automatically or fully-automatically. It divides an image into areas based on a specified description, such as segmenting body organs/tissues for border detection, tumour detection/segmentation, and mass detection. The segmented ROIs can then be utilized for clinical workflows and downstream analysis.",
     "slug": "segmentation",
     "image": "src/images/Research/segmentation_brain.png",
     "projects": [
@@ -57,7 +58,7 @@
   },
   {
     "topic": "Clinical Deployment and Assessment",
-    "description" : "Improve and monitor clinical workflow using AI models",
+    "short_description" : "Improve and monitor clinical workflow using AI models",
     "slug": "clinical-deployment-and-assessment",
     "image": "src/images/Research/clinicalWorkflow.png",
     "projects": [

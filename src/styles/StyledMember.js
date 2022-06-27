@@ -13,7 +13,7 @@ const StyledMember = styled.div`
       min-height: 40px;
       color: white;
       font-weight: 60;
-      font-size: 25px;
+      font-size: calc(0.7vw + 0.8em);
       display: flex;
       justify-content: left;
     }

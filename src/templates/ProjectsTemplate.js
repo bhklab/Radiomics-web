@@ -11,6 +11,7 @@ export const query = graphql`
     topicsJson( slug: { eq: $slug }) {
         topic
         description
+        short_description
         projects {
                 name
                 description
@@ -68,6 +69,13 @@ const ProjectsTemplate = ({ data }) => {
             <StyledPage>
                 <h1>{item.topic}</h1>
                 <div className="container">
+                    <StyledTopic>
+                        <div className='content'>
+                            {
+                                item.description || ''
+                            }
+                        </div>
+                    </StyledTopic>
                     <StyledTopic>
                         {
                             customizedContent(item.projects)

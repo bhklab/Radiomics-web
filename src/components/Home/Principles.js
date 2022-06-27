@@ -43,7 +43,7 @@ const StyledPrinciple = styled.div`
     .title {
       font-family: 'Br-cobane-font', Arial;
       font-weight: bold;
-      font-size: 16px;
+      font-size: calc(0.6vw + 0.5em);
       color: rgba(0, 0, 0, 0.95);
     }
 
@@ -63,7 +63,7 @@ const StyledPrinciple = styled.div`
       margin-right: 15px;
       margin-left: 15px;
       text-align: center;
-      font-size: 16px;
+      font-size: calc(0.5vw + 0.5em);
       font-weight: normal;
       color: #575757;
     }

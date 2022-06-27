@@ -82,7 +82,7 @@ const Footer = () => (
     </div>
     <div className="links">
        <div className="link-container">
-           <Link to="/#intro">About</Link>
+           <Link to="/">Home</Link>
            <Link to="/research">Research</Link>
 
        </div>

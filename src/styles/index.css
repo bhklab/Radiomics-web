@@ -18,6 +18,12 @@ main {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 400;
+}
+
 @media only screen and (min-width: 1082px) {
     .burger-menu, .bm-burger-button {
         display:none;

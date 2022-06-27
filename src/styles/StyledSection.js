@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledSection = styled.div`
   background: #f7f7f7;
   padding: 30px 150px 50px 150px;
-  min-height: 45vh;
+  min-height: 280px;
   :nth-child(even) {
     background: white;
   }
@@ -45,7 +45,7 @@ const StyledSection = styled.div`
 
     .title {
       font-weight: bold;
-      font-size: 16px;
+      font-size: calc(0.6vw + 0.5em);
       height: 40px;
       font-family: 'Br-cobane-font', Arial;
       color: rgba(0, 0, 0, 0.95);
@@ -81,7 +81,7 @@ const StyledSection = styled.div`
 
     & span {
       margin-top: 20px;
-      font-size: 14px;
+      font-size: calc(0.5vw + 0.5em);
       font-weight: normal;
       color: #575757;
     }

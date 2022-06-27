@@ -88,6 +88,7 @@ const Header = ({ page }) => {
                 </Link>
             </StyledLogo>
             <StyledLinks className="header-links">
+                <Link activeClassName="active" to="/">HOME</Link>
                 <Link activeClassName="active" to="/research">RESEARCH</Link>
                 <Link activeClassName="active" to="/news">NEWS</Link>
                 <Link activeClassName="active" to="/publications">PUBLICATIONS</Link>

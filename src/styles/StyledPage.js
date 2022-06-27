@@ -42,11 +42,9 @@ const StyledPage = styled.div`
   }
   a {
     color: #2A2A2AFF;
-    text-decoration: none;
     transition: 0.3s;
     cursor: pointer;
     display: flex;
-    font-family: 'Br-cobane-font', Arial;
     justify-content: center;
     flex-direction: column;
     align-items: center;
