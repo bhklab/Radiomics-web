@@ -4,6 +4,7 @@ const StyledSection = styled.div`
   background: #f7f7f7;
   padding: 30px 150px 50px 150px;
   min-height: 280px;
+
   :nth-child(even) {
     background: white;
   }
@@ -70,10 +71,11 @@ const StyledSection = styled.div`
       padding: 10px 5px;
     }
 
+
     a:hover {
       transition: 0.3s;
     }
-    
+
     & img {
       height: 45px;
       max-width: 60px;
@@ -90,6 +92,31 @@ const StyledSection = styled.div`
       color: #d5d5d5;
     }
   }
+
+  .disabled {
+    background-color: rgba(220, 220, 220, 0.36);
+    flex-basis: 16%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    margin: 20px 10px 40px 10px;
+    min-height: 140px;
+    border-radius: 5px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1), 0 0px 1px rgba(0, 0, 0, 0.3);
+    line-height: 120%;
+
+    .title {
+      font-weight: bold;
+      font-size: calc(0.6vw + 0.5em);
+      height: 40px;
+      font-family: 'Br-cobane-font', Arial;
+      color: rgba(0, 0, 0, 0.95);
+    }
+  }
+
   .about {
     margin: 0px 10%;
     font-family: 'Br-cobane-font', Arial;

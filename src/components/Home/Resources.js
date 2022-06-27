@@ -29,11 +29,11 @@ const Resources = () => {
                         <span className="title">Publications</span>
                     </a>
                 </div>
-                <div className="box">
+                <div className="box disabled">
                         <img src = {meeting}></img>
                         <span className="title">Meetings</span>
                 </div>
-                <div className="box">
+                <div className="box disabled" >
                         <img src = {opportunity}></img>
                         <span className="title">Opportunities</span>
                 </div>
