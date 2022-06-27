@@ -70,11 +70,12 @@ const ProjectsTemplate = ({ data }) => {
                 <h1>{item.topic}</h1>
                 <div className="container">
                     <StyledTopic>
-                        <div className='content'>
-                            {
-                                item.description || ''
-                            }
-                        </div>
+                        {
+                            item.description && item.description.length ?
+                                <div className='description'>
+                                    {item.description}
+                                </div>  : ''
+                        }
                     </StyledTopic>
                     <StyledTopic>
                         {

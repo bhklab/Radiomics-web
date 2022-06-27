@@ -8,6 +8,7 @@ const StyledMember = styled.div`
     margin-top: 70px;
     flex-direction: column;
     max-width: 45vw;
+    line-height: 22px;
     
     .name {
       min-height: 40px;

@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 const StyledTopic= styled.div`
-  width: 80%;
+  width: 75%;
   font-size: calc(0.5vw + 0.5em);
+
   .title {
     color: gray;
     display: flex;
@@ -12,17 +13,21 @@ const StyledTopic= styled.div`
     font-weight: bold;
     margin-top: 30px;
   }
+
   .content {
     margin-top: 20px;
     font-weight: normal;
     color: white;
     white-space: pre-line;
+    line-height: 22px;
   }
+
   .description {
     margin-top: 20px;
     margin-bottom: 40px;
     font-weight: normal;
-    color: white;
+    line-height: 22px;
+    color: #e5e5e5;
     white-space: pre-line;
   }
 `;

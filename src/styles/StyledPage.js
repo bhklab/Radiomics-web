@@ -8,12 +8,14 @@ const StyledPage = styled.div`
   flex-direction: column;
   margin-top: 80px;
   font-family: 'Br-cobane-font', Arial;
+
   h1 {
     padding-top: 2%;
     padding-left: 12%;
     font-size: calc(1.0vw + 0.9em);
     font-family: 'Br-cobane-font', 'Rubik', sans-serif;
-    color: var(--light-gray);
+    //color: var(--light-gray);
+    color: white;
   }
 
   span {
@@ -40,6 +42,24 @@ const StyledPage = styled.div`
       display: flex;
     }
   }
+
+  .dark-container {
+    width: 70%;
+    font-family: 'Br-cobane-font', Arial;
+    background-color: white;
+    border-radius: 3.5px;
+    flex-direction: column;
+    align-self: center;
+    display: flex;
+    padding: 30px 40px;
+
+    h3 {
+      color: #424242;
+      text-align: left;
+      display: flex;
+    }
+  }
+
   a {
     color: #2A2A2AFF;
     transition: 0.3s;
@@ -55,7 +75,7 @@ const StyledPage = styled.div`
   a:hover {
     transition: 0.3s;
   }
-  
+
 `;
 
 
