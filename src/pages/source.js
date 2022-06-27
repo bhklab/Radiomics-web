@@ -18,7 +18,7 @@ const StyledCard = styled.div`
     width:35%;
     flex-direction: row;
     background-color: white;
-    padding: 40px;
+    padding: 25px;
     border-radius: 3.5px;
     .title {
       display: flex;

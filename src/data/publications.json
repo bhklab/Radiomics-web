@@ -17,7 +17,7 @@
     "authors": "Welch ML, McIntosh C, Purdie TG, Wee L, Traverso A, Dekker A, Haibe-Kains B, Jaffray DA.",
     "publisher": "Phys Med Biol",
     "doi": "",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/31683260/",
+    "link": "https://iopscience.iop.org/article/10.1088/1361-6560/ab5427",
     "type": "journal"
   },
   {
@@ -28,7 +28,7 @@
     "authors": "Welch ML, McIntosh C, Haibe-Kains B, Milosevic MF, Wee L, Dekker A, Huang SH, Purdie TG, O'Sullivan B, Aerts HJWL, Jaffray DA. Radiother Oncol.",
     "publisher": "Radiother Oncol",
     "doi": "10.1016/j.radonc.2018.10.027",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/30416044",
+    "link": "https://www.thegreenjournal.com/article/S0167-8140(18)33551-5/fulltext",
     "type": "journal"
   },
   {
@@ -48,8 +48,9 @@
     "title": "Prediction of Human Papillomavirus (HPV) Association of Oropharyngeal Cancer (OPC) Using Radiomics: The Impact of the Variation of CT Scanner.",
     "authors": "Reiazi R, Arrowsmith C, Welch M, Abbas-Aghababazadeh F, Eeles C, Tadic T, Hope AJ, Bratman SV, Haibe-Kains B",
     "publisher": "Cancers (Basel)",
+    "publisher_img": "cancer",
     "doi": "10.3390/cancers13092269",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/34066857/",
+    "link": "https://www.mdpi.com/2072-6694/13/9/2269",
     "type": "journal"
   },
   {
@@ -60,7 +61,7 @@
     "authors": "Reiazi R, Abbas E, Famiyeh P, Rezaie A, Kwan JYY, Patel T, Bratman SV, Tadic T, Liu FF, Haibe-Kains B",
     "publisher": "Comput Biol Med",
     "doi": "10.1016/j.compbiomed.2021.104400",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/33930766/",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0010482521001943",
     "type": "journal"
   },
   {
@@ -71,7 +72,7 @@
     "authors": "Sejin Kim, Michal Kazmierski, Benjamin Haibe-Kains.",
     "publisher": "Proceedings of Machine Learning Research",
     "doi": "",
-    "link": "http://proceedings.mlr.press/v146/kim21a/kim21a.pdf",
+    "link": "https://proceedings.mlr.press/v146/kim21a.html",
     "type": "journal"
   },
   {
@@ -82,7 +83,7 @@
     "authors": "Arrowsmith C, Reiazi R, Welch ML, Kazmierski M, Patel T, Rezaie A, Tadic T, Bratman S, Haibe-Kains B",
     "publisher": "Phys Imaging Radiat Oncol",
     "doi": "10.1016/j.phro.2021.04.001",
-    "link": "https://pubmed.ncbi.nlm.nih.gov/34258406/",
+    "link": "https://phiro.science/article/S2405-6316(21)00021-X/fulltext",
     "type": "journal"
   },
   {
