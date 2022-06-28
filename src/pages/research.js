@@ -84,16 +84,14 @@ const Research = () => {
 
     return(
         <Layout>
-            <>
-                <StyledPage>
-                    <h1>Research Topics</h1>
-                    <div className="container">
-                        <Grid container spacing={3}>
-                            {topics.map((item, i) => customizedContent(item,i))}
-                        </Grid>
-                    </div>
-                </StyledPage>
-            </>
+            <StyledPage>
+                <h1>Research Topics</h1>
+                <div className="container">
+                    <Grid container spacing={3}>
+                        {topics.map((item, i) => customizedContent(item,i))}
+                    </Grid>
+                </div>
+            </StyledPage>
         </Layout>
     )
 }

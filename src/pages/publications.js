@@ -19,8 +19,6 @@ import arxiv from '../images/Publications/arxiv-logo.png';
 import medRxiv from '../images/Publications/medrxive-logo.png';
 
 const StyledLinks = styled.div`
-  margin-top: 20px;
-  margin-bottom: 10px;
   float: right;
   margin-right: 15px;
   min-width: 180px;
@@ -90,7 +88,7 @@ const Publications = () => {
                     <a href={item.link || (item.doi && `https://www.doi.org/${item.doi}`)} target="_blank" rel="noreferrer">
                         <div className="publication">
                             <div style={{ minWidth: '40px', width: '8%', height: '8%', marginBottom: '10px' }}>
-                                <img style={{ width: '100%'}} src={photo} alt={item.publisher}/>
+                                <img style={{ width: '100%', borderRadius: '3.5px'}} src={photo} alt={item.publisher}/>
                             </div>
                             <div style={{ width: '100%', textAlign: 'left', padding: '3px 20px', height: '95px'}}>
                                 <div style={{ textAlign: 'left', height: '50px', minWidth: '240px', color: '#2d2d2d'}}>{item.title}
@@ -112,13 +110,13 @@ const Publications = () => {
                     <h1>Publications</h1>
                     <div className="container">
                         <h3>Key Publications</h3>
-                        <Grid container spacing={12}>
+                        <Grid container spacing={3}>
                             {
                                 publications.sort((a,b)=> (b.year - a.year)).filter(item => item.type !=="preprint").map((item,i) => (customizedContent(item,i)))
                             }
                         </Grid>
                         <h3>Preprints</h3>
-                        <Grid container spacing={12} >
+                        <Grid container spacing={3} >
                             {
                                 publications.sort((a,b)=> (b.year - a.year)).filter(item => item.type ==="preprint").map((item,i) => (customizedContent(item,i)))
                             }
