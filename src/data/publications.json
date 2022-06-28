@@ -6,6 +6,7 @@
     "authors": "Haibe-Kains B, Adam GA, Hosny A, Khodakarami F; Massive Analysis Quality Control (MAQC) Society Board of Directors, Waldron L, Wang B, McIntosh C, Goldenberg A, Kundaje A, Greene CS, Broderick T, Hoffman MM, Leek JT, Korthauer K, Huber W, Brazma A, Pineau J, Tibshirani R, Hastie T, Ioannidis JPA, Quackenbush J, Aerts HJWL.",
     "publisher": "Nature",
     "doi": "",
+    "publisher_img": "nature",
     "link": "https://doi.org/10.1038/s41586-020-2766-y",
     "type": "journal"
   },
@@ -16,6 +17,7 @@
     "title": "Automatic classification of dental artifact status for efficient image veracity checks: effects of image resolution and convolutional neural network depth.",
     "authors": "Welch ML, McIntosh C, Purdie TG, Wee L, Traverso A, Dekker A, Haibe-Kains B, Jaffray DA.",
     "publisher": "Phys Med Biol",
+    "publisher_img": "physMedBiol",
     "doi": "",
     "link": "https://iopscience.iop.org/article/10.1088/1361-6560/ab5427",
     "type": "journal"
@@ -27,6 +29,7 @@
     "title": "Vulnerabilities of radiomic signature development: The need for safeguards.",
     "authors": "Welch ML, McIntosh C, Haibe-Kains B, Milosevic MF, Wee L, Dekker A, Huang SH, Purdie TG, O'Sullivan B, Aerts HJWL, Jaffray DA. Radiother Oncol.",
     "publisher": "Radiother Oncol",
+    "publisher_img": "radiotherapyOncology",
     "doi": "10.1016/j.radonc.2018.10.027",
     "link": "https://www.thegreenjournal.com/article/S0167-8140(18)33551-5/fulltext",
     "type": "journal"
@@ -37,6 +40,7 @@
     "title": "A Machine Learning Challenge for Prognostic Modelling in Head and Neck Cancer Using Multi-modal Data.",
     "authors": "Michal Kazmierski, Mattea Welch, Sejin Kim, Chris McIntosh, Princess Margaret Head, Neck Cancer Group, Katrina Rey-McIntyre, Shao Hui Huang, Tirth Patel, Tony Tadic, Michael Milosevic, Fei-Fei Liu, Andrew Hope, Scott Bratman, Benjamin Haibe-Kains",
     "publisher": "arXiv",
+    "publisher_img": "arxiv",
     "doi": "arxiv.org/abs/2101.11935",
     "link": "https://arxiv.org/abs/2101.11935",
     "type": "preprint"
@@ -60,6 +64,7 @@
     "title": "The impact of the variation of imaging parameters on the robustness of Computed Tomography radiomic features: A review.",
     "authors": "Reiazi R, Abbas E, Famiyeh P, Rezaie A, Kwan JYY, Patel T, Bratman SV, Tadic T, Liu FF, Haibe-Kains B",
     "publisher": "Comput Biol Med",
+    "publisher_img": "Computers-in-Biology-and-Medicine",
     "doi": "10.1016/j.compbiomed.2021.104400",
     "link": "https://www.sciencedirect.com/science/article/pii/S0010482521001943",
     "type": "journal"
@@ -71,6 +76,7 @@
     "title": "Deep-CR MTLR: a Multi-Modal Approach for Cancer Survival Prediction with Competing Risks.",
     "authors": "Sejin Kim, Michal Kazmierski, Benjamin Haibe-Kains.",
     "publisher": "Proceedings of Machine Learning Research",
+    "publisher_img": "pmlr",
     "doi": "",
     "link": "https://proceedings.mlr.press/v146/kim21a.html",
     "type": "journal"
@@ -82,6 +88,7 @@
     "title": "Automated detection of dental artifacts for large-scale radiomic analysis in radiation oncology.",
     "authors": "Arrowsmith C, Reiazi R, Welch ML, Kazmierski M, Patel T, Rezaie A, Tadic T, Bratman S, Haibe-Kains B",
     "publisher": "Phys Imaging Radiat Oncol",
+    "publisher_img": "phiro",
     "doi": "10.1016/j.phro.2021.04.001",
     "link": "https://phiro.science/article/S2405-6316(21)00021-X/fulltext",
     "type": "journal"
@@ -93,6 +100,7 @@
     "title": "Lymph Node Graph Neural Networks for Cancer Metastasis Prediction.",
     "authors": "Michal Kazmierski, Benjamin Haibe-Kains",
     "publisher": "arXiv",
+    "publisher_img": "arxiv",
     "doi": "10.48550/arXiv.2106.01711",
     "link": "",
     "type": "preprint"
@@ -104,6 +112,7 @@
     "title": "Development of web-based quality-assurance tool for radiotherapy target delineation for head and neck cancer: quality evaluation of nasopharyngeal carcinoma.",
     "authors": "Jun Won Kim, Joseph Marsilla, Michal Kazmierski, Denis Tkachuk, Shao Hui Huang, Wei Xu, John Cho, Jolie Ringash, Scott Bratman, Benjamin Haibe-Kains, Andrew Hope",
     "publisher": "medRxiv",
+    "publisher_img": "medRxiv",
     "doi": "10.1101/2021.02.24.21252123",
     "link": "",
     "type": "preprint"
@@ -115,6 +124,7 @@
     "title": "A hybrid algorithm for dental artifact detection in large computed tomography datasets",
     "authors": "Colin Arrowsmith, Reza Reiazi, Mattea L. Welch, Michal Kazmierski, Tirth Patel, Aria Rezaie, Tony Tadic, Scott Bratman, Benjamin Haibe-Kains",
     "publisher": "medRxiv",
+    "publisher_img": "medRxiv",
     "doi": "10.1101/2020.08.06.20169516",
     "link": "",
     "type": "preprint"
@@ -126,6 +136,7 @@
     "title": "CovidCTNet: An Open-Source Deep Learning Approach to Identify Covid-19 Using CT Image.",
     "authors": "Tahereh Javaheri, Morteza Homayounfar, Zohreh Amoozgar, Reza Reiazi, Fatemeh Homayounieh, Engy Abbas, Azadeh Laali, Amir Reza Radmard, Mohammad Hadi Gharib, Seyed Ali Javad Mousavi, Omid Ghaemi, Rosa Babaei, Hadi Karimi Mobin, Mehdi Hosseinzadeh, Rana Jahanban-Esfahlan, Khaled Seidi, Mannudeep K. Kalra, Guanglan Zhang, L.T. Chitkushev, Benjamin Haibe-Kains, Reza Malekzadeh, Reza Rawassizadeh",
     "publisher": "arXiv",
+    "publisher_img": "arxiv",
     "doi": "10.48550/arXiv.2005.03059",
     "link": "",
     "type": "preprint"
@@ -137,6 +148,7 @@
     "title": "External validation and transfer learning of convolutional neural networks for computed tomography dental artifact classification.",
     "authors": "Welch ML, McIntosh C, Traverso A, Wee L, Purdie TG, Dekker A, Haibe-Kains B, Jaffray DA",
     "publisher": "Phys Med Biol",
+    "publisher_img": "physMedBiol",
     "doi": "10.1088/1361-6560/ab63ba",
     "link": "",
     "type": "journal"
@@ -148,6 +160,7 @@
     "title": "Radiomic Biomarkers to Refine Risk Models for Distant Metastasis in HPV-related Oropharyngeal Carcinoma.",
     "authors": "Kwan JYY, Su J, Huang SH, Ghoraie LS, Xu W, Chan B, Yip KW, Giuliani M, Bayley A, Kim J, Hope AJ, Ringash J, Cho J, McNiven A, Hansen A, Goldstein D, de Almeida JR, Aerts HJ, Waldron JN, Haibe-Kains B, O'Sullivan B, Bratman SV, Liu FF",
     "publisher": "Int J Radiat Oncol Biol Phys",
+    "publisher_img": "radOncoBioPhys",
     "doi": "10.1016/j.ijrobp.2018.01.057",
     "link": "",
     "type": "journal"

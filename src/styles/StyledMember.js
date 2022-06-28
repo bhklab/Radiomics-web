@@ -3,9 +3,10 @@ import styled from "styled-components";
 const StyledMember = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   .text {
     color: white;
-    margin-top: 70px;
+    margin-top: 60px;
     flex-direction: column;
     max-width: 45vw;
     line-height: 22px;
@@ -20,7 +21,7 @@ const StyledMember = styled.div`
     }
   }
   .img {
-    height: 500px;
+    height: 550px;
   }
 `;
 

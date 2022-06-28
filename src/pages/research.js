@@ -34,8 +34,10 @@ const StyledLinks = styled.div`
     text-decoration: none;
   }
   
-  .publication {
+  .research {
     min-height: 200px;
+    min-width: 200px;
+    width: 250px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -66,14 +68,14 @@ const Research = () => {
         }
 
         return (
-            <Grid item xs={6} sm={4} key={i}>
+            <Grid item xs={12} sm={12} key={i} style={{ flexBasis: '33%', flexShrink: '0'}}>
                 <StyledLinks >
                     <Link to={`/research/${item.slug}`}>
-                        <Paper  style={{ minHeight: '120px', padding: '10px'}}>
+                        <div className="research">
                             <img style={{ height: '50px', margin: '10px'}} src={photo} alt={item.slug}/>
                             <div style={{ height: '50px', color: 'black', fontWeight: 'bold'}}>{item.topic}</div>
                             <div style={{ height: '90px', color: '#2d2d2d'}}>{item.short_description}</div>
-                        </Paper>
+                        </div>
                     </Link>
                 </StyledLinks>
             </Grid>
