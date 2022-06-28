@@ -88,7 +88,7 @@ const Publications = () => {
                     <a href={item.link || (item.doi && `https://www.doi.org/${item.doi}`)} target="_blank" rel="noreferrer">
                         <div className="publication">
                             <div style={{ minWidth: '40px', width: '8%', height: '8%', marginBottom: '10px' }}>
-                                <img style={{ width: '100%', borderRadius: '3.5px'}} src={photo} alt={item.publisher}/>
+                                <img style={{ width: '100%', borderRadius: '3.5px', paddingTop: ' 10px' }} src={photo} alt={item.publisher}/>
                             </div>
                             <div style={{ width: '100%', textAlign: 'left', padding: '3px 20px', height: '95px'}}>
                                 <div style={{ textAlign: 'left', height: '50px', minWidth: '240px', color: '#2d2d2d'}}>{item.title}
