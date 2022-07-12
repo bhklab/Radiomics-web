@@ -2,6 +2,10 @@ import { Link } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
 import logo from '../images/logo/R3-white.png';
+import pmhLogoWhite from '../images/logo/PM-white.png';
+import RPMLogoWhite from '../images/logo/RMP Logo - White.png';
+import UTDROLogoWhite from '../images/logo/UTDRO Logo - White.png';
+
 
 const StyledFooter = styled.div`
   width: 100%;
@@ -15,12 +19,31 @@ const StyledFooter = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .divider {
+    margin: 0px 10px;
+  }
+  .logo-sm {
+    img {
+      width: 100%;
+    }
+    margin-right: 20px;
+  }
+  
+  link {
+    margin: 10px;
+  }
 
   .logo {
     float: left;
 
     & img {
-      width: 60px;
+      margin: 30px;
+      height: 48px;
       margin-right: 10px;
     }
   }
@@ -31,8 +54,9 @@ const StyledFooter = styled.div`
     width: 40%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    //justify-content: flex-start;
     align-items: flex-start;
+    justify-content: center;
 
     * {
       flex-basis: 33%;
@@ -76,40 +100,31 @@ const StyledFooter = styled.div`
 `;
 
 const Footer = () => (
-  <StyledFooter>
-    <div className="logo">
-      <Link to="/"><img alt="logo" src={logo} /></Link>
-    </div>
-    <div className="links">
-       <div className="link-container">
-           <Link to="/">Home</Link>
-           <Link to="/research">Research</Link>
-
-       </div>
-
-      <div className="link-container">
-        {/*<Link to="/datasets">Datasets</Link>*/}
-        <Link to="/news">News</Link>
-        <Link to="/publications">Publications</Link>
-
-      </div>
-
-      <div className="link-container">
-
-        <Link to="/source">Resources</Link>
-        <Link to="/group">Group</Link>
-        {/*<Link to="/opportunity">Opportunities</Link>*/}
-      </div>
-    </div>
-    <div className="contact">
-        <Link to="/contact"><h2>Contact</h2></Link>
-
-      Radiation Medicine Program Group,
-      {' '}
-      <br />
-      Toronto, Ontario
-    </div>
-  </StyledFooter>
+    <>
+        <StyledFooter>
+            <span className='link'><Link href='/'>Home</Link></span>
+            <span className='divider'>|</span>
+            <span className='link'><Link href='/research'>Research</Link></span>
+            <span className='divider'>|</span>
+            <span className='link'><Link href='/news'>News</Link></span>
+            <span className='divider'>|</span>
+            <span className='link'><Link href='/publications'>Publications</Link></span>
+            <span className='divider'>|</span>
+            <span className='link'><Link href="/source">Resources</Link></span>
+            <span className='divider'>|</span>
+            <span className='link'><Link href="/group">Group</Link></span>
+            <div className="contact">
+                <Link to="/contact"><h2>Contact</h2></Link>
+                Radiation Medicine Program Group,{' '}<br />Toronto, Ontario
+            </div>
+        </StyledFooter>
+        <StyledFooter>
+            <div className="logo"><Link to="/"><img alt="logo" src={logo} /></Link></div>
+            <div className="logo"><a href="https://www.uhn.ca/" target="_blank"><img alt="logo" src={pmhLogoWhite} /></a></div>
+            <div className="logo"><Link to="/"><img alt="logo" src={RPMLogoWhite} /></Link></div>
+            <div className="logo"><Link to="/"><img alt="logo" src={UTDROLogoWhite} /></Link></div>
+        </StyledFooter>
+    </>
 );
 
 
