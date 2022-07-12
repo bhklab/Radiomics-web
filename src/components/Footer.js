@@ -6,6 +6,23 @@ import pmhLogoWhite from '../images/logo/PM-white.png';
 import RPMLogoWhite from '../images/logo/RMP Logo - White.png';
 import UTDROLogoWhite from '../images/logo/UTDRO Logo - White.png';
 
+const StyledLogo = styled.div`
+  margin-left: 30px;
+  float:left;
+  font-family: 'Br-cobane-font', Arial;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: calc(0.2vw + 0.5em);
+  font-weight: 50;
+  & img {
+    height: 40px;
+    margin-right:10px;
+  }
+  .text {
+    padding-top: 5px;
+  }
+`;
 
 const StyledFooter = styled.div`
   width: 100%;
@@ -44,7 +61,7 @@ const StyledFooter = styled.div`
 
     & img {
       margin: 30px;
-      height: 45px;
+      height: 40px;
       margin-right: 10px;
     }
   }
@@ -100,29 +117,38 @@ const StyledFooter = styled.div`
 const Footer = () => (
     <>
         <StyledFooter>
-            <span className='link'><Link href='/'>Home</Link></span>
+            <span className='link'><Link to='/'>Home</Link></span>
             <span className='divider'>|</span>
-            <span className='link'><Link href='/research'>Research</Link></span>
+            <span className='link'><Link to='/research'>Research</Link></span>
             <span className='divider'>|</span>
-            <span className='link'><Link href='/news'>News</Link></span>
+            <span className='link'><Link to='/news'>News</Link></span>
             <span className='divider'>|</span>
-            <span className='link'><Link href='/publications'>Publications</Link></span>
+            <span className='link'><Link to='/publications'>Publications</Link></span>
             <span className='divider'>|</span>
-            <span className='link'><Link href="/source">Resources</Link></span>
+            <span className='link'><Link to="/source">Resources</Link></span>
             <span className='divider'>|</span>
-            <span className='link'><Link href="/group">Group</Link></span>
+            <span className='link'><Link to="/group">Group</Link></span>
             <span className='divider'>|</span>
-            <span className='link'><Link href="/contact">Contact</Link></span>
-            {/*<div className="contact">*/}
-            {/*    <Link to="/contact"><h2>Contact</h2></Link>*/}
-            {/*    Radiation Medicine Program Group, Toronto, Ontario*/}
-            {/*</div>*/}
+            <span className='link'><Link to="/contact">Contact</Link></span>
         </StyledFooter>
         <StyledFooter>
-            <div className="logo"><Link to="/"><img alt="logo" src={logo} /></Link></div>
-            <div className="logo"><a href="https://www.uhn.ca/" target="_blank"><img alt="logo" src={pmhLogoWhite} /></a></div>
-            <div className="logo"><a href="https://www.uhn.ca/PrincessMargaret/Health_Professionals/Programs_Departments/RMP/Pages/about_us.aspx" target="_blank"><img alt="logo" src={RPMLogoWhite} /></a></div>
-            <div className="logo"><a href="https://radonc.utoronto.ca/" target="_blank"><img height="150px" alt="logo" src={UTDROLogoWhite} /></a></div>
+            <StyledLogo>
+                <Link to="/"><img alt="logo" src={logo} /></Link>
+                <Link to="/">
+                    <div className="text">
+                        Radiomics for
+                    </div>
+                    <div>
+                        Radiotherapy
+                    </div>
+                    <div>
+                        Research
+                    </div>
+                </Link>
+            </StyledLogo>
+            <div className="logo"><a href="https://www.uhn.ca/" target="_blank" rel="noreferrer"><img alt="logo" src={pmhLogoWhite} /></a></div>
+            <div className="logo"><a href="https://www.uhn.ca/PrincessMargaret/Health_Professionals/Programs_Departments/RMP/Pages/about_us.aspx" target="_blank" rel="noreferrer"><img alt="logo" src={RPMLogoWhite} /></a></div>
+            <div className="logo"><a href="https://radonc.utoronto.ca/" target="_blank" rel="noreferrer"><img style={{height:'65px'}} alt="logo" src={UTDROLogoWhite} /></a></div>
         </StyledFooter>
     </>
 );
