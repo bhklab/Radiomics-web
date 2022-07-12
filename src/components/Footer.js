@@ -26,6 +26,7 @@ const StyledFooter = styled.div`
   }
   .divider {
     margin: 0px 10px;
+    color: white;
   }
   .logo-sm {
     img {
@@ -43,7 +44,7 @@ const StyledFooter = styled.div`
 
     & img {
       margin: 30px;
-      height: 48px;
+      height: 45px;
       margin-right: 10px;
     }
   }
@@ -54,10 +55,7 @@ const StyledFooter = styled.div`
     width: 40%;
     display: flex;
     flex-direction: row;
-    //justify-content: flex-start;
-    align-items: flex-start;
-    justify-content: center;
-
+    justify-content: flex-start;
     * {
       flex-basis: 33%;
       color: white;
@@ -113,16 +111,16 @@ const Footer = () => (
             <span className='link'><Link href="/source">Resources</Link></span>
             <span className='divider'>|</span>
             <span className='link'><Link href="/group">Group</Link></span>
-            <div className="contact">
-                <Link to="/contact"><h2>Contact</h2></Link>
-                Radiation Medicine Program Group,{' '}<br />Toronto, Ontario
-            </div>
+            {/*<div className="contact">*/}
+            {/*    <Link to="/contact"><h2>Contact</h2></Link>*/}
+            {/*    Radiation Medicine Program Group, Toronto, Ontario*/}
+            {/*</div>*/}
         </StyledFooter>
         <StyledFooter>
             <div className="logo"><Link to="/"><img alt="logo" src={logo} /></Link></div>
             <div className="logo"><a href="https://www.uhn.ca/" target="_blank"><img alt="logo" src={pmhLogoWhite} /></a></div>
-            <div className="logo"><Link to="/"><img alt="logo" src={RPMLogoWhite} /></Link></div>
-            <div className="logo"><Link to="/"><img alt="logo" src={UTDROLogoWhite} /></Link></div>
+            <div className="logo"><a href="https://www.uhn.ca/PrincessMargaret/Health_Professionals/Programs_Departments/RMP/Pages/about_us.aspx" target="_blank"><img alt="logo" src={RPMLogoWhite} /></a></div>
+            <div className="logo"><a href="https://radonc.utoronto.ca/" target="_blank"><img height="150px" alt="logo" src={UTDROLogoWhite} /></a></div>
         </StyledFooter>
     </>
 );
