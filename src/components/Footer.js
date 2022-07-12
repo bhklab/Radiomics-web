@@ -111,6 +111,8 @@ const Footer = () => (
             <span className='link'><Link href="/source">Resources</Link></span>
             <span className='divider'>|</span>
             <span className='link'><Link href="/group">Group</Link></span>
+            <span className='divider'>|</span>
+            <span className='link'><Link href="/contact">Contact</Link></span>
             {/*<div className="contact">*/}
             {/*    <Link to="/contact"><h2>Contact</h2></Link>*/}
             {/*    Radiation Medicine Program Group, Toronto, Ontario*/}
